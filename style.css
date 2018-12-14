@@ -34,3 +34,22 @@ p {
     margin: 0 auto;
     width: 1000px;
 }
+
+#about {
+    overflow: auto;
+}
+
+#about-content {
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+#profile {
+    /* float: left; */
+    display: inline-block;
+    top: 50%;
+    width: 150px;
+        border-radius: 100%;
+}
