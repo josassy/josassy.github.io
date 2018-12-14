@@ -1,0 +1,34 @@
+body {
+    background-color: white;
+    font-family: Calibri;
+}
+
+header {
+    display: block;
+    background-color: black;
+}
+
+li {
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1 {
+    font-family: Calibri Light;
+    font-size: 30px;
+}
+p {
+    font-family: Calibri;
+    font-size: 15px;
+}
+
+.emphasis {
+    font-style: italic;
+    font-size: 17px;
+    color: white;
+}
