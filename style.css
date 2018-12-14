@@ -1,14 +1,6 @@
-body {
-    background-color: white;
-    font-family: Calibri;
-}
-
 header {
     display: block;
     background-color: black;
-}
-
-li {
 }
 
 ul {
@@ -19,15 +11,26 @@ ul {
 }
 
 h1 {
-    font-family: Calibri Light;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
     font-size: 30px;
 }
+
 p {
-    font-family: Calibri;
-    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
 }
 
 .emphasis {
     font-style: italic;
     font-size: 17px;
+}
+
+.body-content {
+    margin: 0 auto;
+    width: 1000px;
 }
