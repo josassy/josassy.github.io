@@ -30,26 +30,32 @@ p {
     font-size: 17px;
 }
 
-.body-content {
+body {
     margin: 0 auto;
     width: 1000px;
 }
 
-#about {
+.flex-container {
     overflow: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vertical-line {
+    border-left: 1px solid black;
+    height: 150px;
 }
 
 #about-content {
-    display: inline-block;
-    margin-left: 10px;
-    padding-left: 10px;
-    border-left: 1px solid black;
+    width: 800px;
 }
 
 #profile {
     /* float: left; */
-    display: inline-block;
-    top: 50%;
+    /* display: inline-block; */
+    /* top: 50%; */
     width: 150px;
     border-radius: 100%;
 }
