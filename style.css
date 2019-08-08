@@ -3,44 +3,49 @@ html {
 }
 
 header {
-  height: 80px;
+  /* padding-top: 10px; */
+  /* height: 80px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: center; */
 }
 
 body {
   margin: 0 auto;
+  padding: 20px;
   max-width: 1000px;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
 }
 
 nav li {
-  float: left;
+  display: inline-block;
 }
 
 nav li a {
+  box-sizing: border-box;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 31px 0;
+  margin: 0 16px;
+  height: 80px;
   text-decoration: none;
   font-family: 'Open Sans';
   font-size: 18px;
 }
 
 nav li a:hover {
-  border-bottom: 2px;
-  border-color: white;
+  border-bottom: 3px solid white;
 }
 
 header img {
   float: left;
+  padding-right: 20px;
 }
 
 p {
