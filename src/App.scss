@@ -1,53 +1,31 @@
+@import "./colors.scss";
+
 body {
-  background-color: #101010
+  margin: 0;
+  background-color: $background;
 }
 
 header {
   top: 0;
-  position: relative;
-  overflow: hidden;
-}
-
-header.sticky {
   position: sticky;
-  top: 0;
-  /* width: 100% */
-  color: white;
+  overflow: hidden;
+  background-color: $accentDark;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  align-items: center;
 }
 
-.header-top {
-  transition: .225s ease-out;
-}
-
-.sticky .header-top {
-  opacity: 0.5;
-  transform: translateY(-100%);
-  transition: none;
-}
-
-.header-sticky {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  opacity: 0.5;
-  transform: translateY(-100%);
-}
-
-.fake-header {
-  height: 1px;
-  position: relative;
-}
-
-body {
+.page-content {
   margin: 0 auto;
-  padding: 20px;
-  max-width: 1000px;
+  max-width: 800px;
+  padding: 0 20px;
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
@@ -57,7 +35,7 @@ nav ul {
 nav li a {
   box-sizing: border-box;
   display: block;
-  color: white;
+  color: $text;
   text-align: center;
   padding: 31px 0;
   margin: 0 16px;
@@ -73,20 +51,23 @@ nav li a:hover {
 
 header img {
   float: left;
-  height: 80px;
-  padding-right: 20px;
+  height: 60px;
+  padding: 0 20px;
 }
 
 .header-sticky img {
   height: 40px;
 }
 
-h1, h2 {
-  color: white;
+h1, h2, li {
+  font-family: 'Open Sans';
+  color: $text;
+  text-align: left;
 }
 
 p {
-  color: white;
+  color: $text;
   font-family: 'Open Sans';
   font-size: 16px;
+  text-align: left;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import Sticky from './Sticky.js';
 import logo from './images/jl-logo-white-noborders.svg';
-import './App.css';
+import './App.scss';
 
 function HeaderContent() {
   return (
