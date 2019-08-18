@@ -1,0 +1,59 @@
+@import "./colors.scss";
+
+header {
+  top: 0;
+  position: sticky;
+  overflow: hidden;
+  background-color: $accentDark;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+nav.mobile {
+  display: block;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+nav.mobile ul {
+  display: block;
+}
+
+nav li a {
+  box-sizing: border-box;
+  display: block;
+  color: $text;
+  text-align: center;
+  padding: 31px 0;
+  margin: 0 16px;
+  height: 80px;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-size: 18px;
+}
+
+nav li a:hover {
+  border-bottom: 3px solid white;
+}
+
+nav.mobile li a:hover {
+  border-bottom: 0;
+}
+
+header img {
+  height: 60px;
+  padding: 10px 20px;
+}
