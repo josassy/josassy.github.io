@@ -7,29 +7,33 @@ header {
   background-color: $accentDark;
 }
 
-nav {
+nav.desktop {
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
   align-items: center;
-}
-
-nav.mobile {
-  display: block;
 }
 
 nav ul {
+  display: none;
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+nav ul.active {
+  display: block;
+}
+
+nav.desktop ul {
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
   align-items: center;
 }
 
-nav.mobile ul {
-  display: block;
+nav.desktop div {
+  display: none;
 }
 
 nav li a {
@@ -45,12 +49,8 @@ nav li a {
   font-size: 18px;
 }
 
-nav li a:hover {
+nav.desktop li a:hover {
   border-bottom: 3px solid white;
-}
-
-nav.mobile li a:hover {
-  border-bottom: 0;
 }
 
 header img {
