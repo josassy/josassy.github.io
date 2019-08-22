@@ -7,11 +7,16 @@ header {
   background-color: $accentDark;
 }
 
-nav.desktop {
+nav {
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
   align-items: center;
+  justify-content: space-between;
+}
+
+nav.desktop {
+  justify-content: flex-start;
 }
 
 nav ul {
@@ -23,6 +28,7 @@ nav ul {
 
 nav ul.active {
   display: block;
+  width: 100%;
 }
 
 nav.desktop ul {
@@ -30,8 +36,15 @@ nav.desktop ul {
   flex-direction: row;
   flex-flow: row wrap;
   align-items: center;
+  width: auto;
 }
 
+// Add margins to hamburger menu button
+nav div {
+  margin: 20px;
+}
+
+// Hide hamburger menu button when desktop
 nav.desktop div {
   display: none;
 }

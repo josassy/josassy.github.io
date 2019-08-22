@@ -2,6 +2,12 @@ import React from 'react';
 import logo from './images/jl-logo-white-noborders.svg';
 import HamburgerMenu from 'react-hamburger-menu';
 
+function Logo () {
+  return (
+    <a href="/"><img src={logo} alt="" id="header-logo"/></a>
+  )
+}
+
 class Header extends React.Component {
   constructor() {
     super();
@@ -23,7 +29,6 @@ class Header extends React.Component {
   };
 
   handleClick() {
-    console.log("a click was handled");
     this.setState({
       isOpen: !this.state.isOpen
     });
@@ -35,11 +40,12 @@ class Header extends React.Component {
 
     return (
       <header>
-      <nav className={ isMobile ? "mobile" : "desktop" }>
-          <a href="/"><img src={logo} alt="" id="header-logo"/></a>
+      <nav className={ isMobile ? "" : "desktop" }>
+          <Logo />
           <HamburgerMenu
             isOpen={this.state.isOpen}
             menuClicked={this.handleClick.bind(this)}
+            color="white"
           />
           <ul className={ this.state.isOpen ? "active" : "" }>
             <li><a href="/">Home</a></li>
