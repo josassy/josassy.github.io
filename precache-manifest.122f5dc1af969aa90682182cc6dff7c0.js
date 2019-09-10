@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "48a8bcbda3267b665191ec44e296ff47",
+    "revision": "93b6eee89bdb2eea7d08d521b38eb479",
     "url": "/index.html"
   },
   {
-    "revision": "09b7eb8b403e6573cfd4",
+    "revision": "a1c0f12ed96a9b0314f8",
     "url": "/static/css/main.89f8a9d4.chunk.css"
   },
   {
@@ -12,15 +12,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.f0259827.chunk.js"
   },
   {
-    "revision": "09b7eb8b403e6573cfd4",
-    "url": "/static/js/main.e958d404.chunk.js"
+    "revision": "a1c0f12ed96a9b0314f8",
+    "url": "/static/js/main.5090fe50.chunk.js"
   },
   {
     "revision": "981a86c32144eb9970e4",
     "url": "/static/js/runtime~main.efca4bcc.js"
   },
   {
-    "revision": "eafa4a5122a90c8398dce7cbfa5a602f",
-    "url": "/static/media/jl-logo-white-noborders.eafa4a51.svg"
+    "revision": "0142d865ef57d44a062d206ce6640325",
+    "url": "/static/media/jl-logo-white-noborders.0142d865.svg"
   }
 ]);

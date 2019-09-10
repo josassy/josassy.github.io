@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.89f8a9d4.chunk.css",
-    "main.js": "/static/js/main.e958d404.chunk.js",
-    "main.js.map": "/static/js/main.e958d404.chunk.js.map",
+    "main.js": "/static/js/main.5090fe50.chunk.js",
+    "main.js.map": "/static/js/main.5090fe50.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.efca4bcc.js",
     "runtime~main.js.map": "/static/js/runtime~main.efca4bcc.js.map",
     "static/js/2.f0259827.chunk.js": "/static/js/2.f0259827.chunk.js",
     "static/js/2.f0259827.chunk.js.map": "/static/js/2.f0259827.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e3f0ff9d94936a6f615ad9c320b40a16.js": "/precache-manifest.e3f0ff9d94936a6f615ad9c320b40a16.js",
+    "precache-manifest.122f5dc1af969aa90682182cc6dff7c0.js": "/precache-manifest.122f5dc1af969aa90682182cc6dff7c0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.89f8a9d4.chunk.css.map": "/static/css/main.89f8a9d4.chunk.css.map",
-    "static/media/jl-logo-white-noborders.svg": "/static/media/jl-logo-white-noborders.eafa4a51.svg"
+    "static/media/jl-logo-white-noborders.svg": "/static/media/jl-logo-white-noborders.0142d865.svg"
   }
 }
