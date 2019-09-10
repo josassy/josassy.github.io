@@ -45,7 +45,7 @@ class Header extends React.Component {
           <HamburgerMenu
             isOpen={this.state.isOpen}
             menuClicked={this.handleClick.bind(this)}
-            color="white"
+            color='#ffffff'
           />
           <ul className={ this.state.isOpen ? "active" : "" }>
             <li><a href="/">Home</a></li>

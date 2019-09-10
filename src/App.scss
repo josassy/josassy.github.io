@@ -24,3 +24,11 @@ p {
   font-size: 16px;
   text-align: left;
 }
+
+a {
+  color: $text;
+}
+
+a:visited {
+  color: $text;
+}
