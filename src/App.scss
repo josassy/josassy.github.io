@@ -27,8 +27,34 @@ p {
 
 a {
   color: $text;
+  text-decoration: none;
 }
 
 a:visited {
   color: $text;
+}
+
+.card {
+  padding: 20px;
+  background-color: $card;
+  border-radius: .5rem;
+  display: flex;
+}
+
+.card:hover h2 {
+  text-decoration: underline;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card img {
+  margin-right: 20px;
+}
+
+.caption {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0;
 }
