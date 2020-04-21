@@ -6,7 +6,7 @@ export const Projects = () => {
     <>
       <h1>Projects</h1>
       {projectsData.map(item => (
-      <a key={item.url} href={item.url} target="_blank" rel="noopener noreferrer">
+      <a key={item.url} href={item.url}>
         <div className="card">
 
           <img src={item["image-url"]} alt={`Screenshot of ${item.title}`}/>
