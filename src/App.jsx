@@ -2,12 +2,12 @@ import React from 'react';
 import Header from './Header';
 import './App.scss';
 import { Home, Projects } from './pages';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
 export const App = () => {
   return (
     <div className="App">
-      <Router>
+      <Router basename='/'>
         <Header />
         <div className="page-content">
           <Route exact path="/"><Home /></Route>
