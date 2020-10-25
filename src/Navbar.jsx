@@ -49,6 +49,7 @@ class Navbar extends React.Component {
           <ul className={ this.state.isOpen ? "active" : "" }>
             <li><Link activeClass="active" to="home" spy smooth duration={scrollDuration}>Home</Link></li>
             <li><Link activeClass="active" to="projects" spy smooth duration={scrollDuration}>Projects</Link></li>
+            <li><Link activeClass="active" to="about" spy smooth duration={scrollDuration}>About</Link></li>
           </ul>
         </nav>
       </header>

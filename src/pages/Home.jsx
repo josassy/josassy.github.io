@@ -21,7 +21,7 @@ export const Home = () => {
                 "I'm a Python", 200,
                 "I'm a UI", 300,
                 "I'm a full stack web developer.", 5000,
-                "I'm a full stack web developer. I even figured out how to center this div.", 5000]}
+                "I'm a full stack web developer (I even figured out how to center this div).", 5000]}
         loop={Infinity}
         wrapper="h1"
       />

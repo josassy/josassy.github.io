@@ -44,47 +44,7 @@ a:visited {
   color: $text;
 }
 
-.card {
-  padding: 10px;
-  background-color: $card;
-  border-radius: .5rem;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.card:hover h2 {
-  text-decoration: underline;
-}
-
-.card h2 {
-  margin-top: 0;
-}
-
-.image-container img {
-  max-width: 100%;
-  height: auto;
-}
-
-.card .image-container {
-  flex: 1 1 200px;
-  margin: 10px;
-}
-
-.card .description {
-  flex: 2 1 200px;
-  margin: 10px;
-}
-
-.card .caption {
-  text-transform: uppercase;
-  font-size: 14px;
-  margin: 0;
-}
-
-a.card {
-  text-decoration: none;
-}
-
+// HOME PAGE
 #home {
   text-align: center;
   display: block;
@@ -106,4 +66,62 @@ a.card {
   flex-grow: 1;
   position: absolute;
   bottom: 50px;
+}
+
+// PROJECTS PAGE
+#projects {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.card {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: $card;
+  border-radius: .5rem;
+  display: flex;
+  flex-flow: row wrap;
+  text-decoration: none;
+}
+
+.card h2 {
+  margin: 0;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card .image-container {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.card .description {
+  flex: 2 1 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .caption {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0;
+}
+
+.card .action-link {
+  margin-top: auto;
+  text-decoration: none;
+}
+
+.card .action-link p {
+  margin: 0;
+  text-align: right;
+}
+
+.card .action-link p:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

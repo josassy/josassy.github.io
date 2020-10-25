@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import './App.scss';
-import { Home, Lorum, Projects } from './pages';
+import { Home, Projects, About } from './pages';
 // import { HashRouter as Router, Route } from 'react-router-dom';
 
 export const App = () => {
@@ -10,10 +10,7 @@ export const App = () => {
       <Navbar />
       <Home />
       <Projects />
-      <Lorum />
-      <Lorum />
-      <Lorum />
-      <Lorum />
+      <About />
     </div>
   );
 }
