@@ -34,18 +34,21 @@ class Navbar extends React.Component {
     const { width }  = this.state;
     const isMobile = width <= 600;
 
+    const scrollDuration = 500;
+
     return (
       <header>
       <nav className={ isMobile ? "" : "desktop" }>
-          <a href="/"><img src={logo} alt="" id="header-logo"/></a>
+          <Link to="home" id="header-logo" smooth duration={scrollDuration}><img src={logo} alt=""/></Link>
           <HamburgerMenu
+            id="hamburger"
             isOpen={this.state.isOpen}
             menuClicked={this.handleClick.bind(this)}
             color='#ffffff'
           />
           <ul className={ this.state.isOpen ? "active" : "" }>
-            <li><Link activeClass="active" to="home" spy smooth duration={1000}>Home</Link></li>
-            <li><Link activeClass="active" to="projects" spy smooth duration={1000}>Projects</Link></li>
+            <li><Link activeClass="active" to="home" spy smooth duration={scrollDuration}>Home</Link></li>
+            <li><Link activeClass="active" to="projects" spy smooth duration={scrollDuration}>Projects</Link></li>
           </ul>
         </nav>
       </header>

@@ -4,6 +4,6 @@
     "description": "Simple 2-way set associative cache simulator built using React. Created for Computer Architecture class at Cedarville University.",
     "date": "April 2020",
     "url": "https://josassy.github.io/cache-simulator",
-    "src": "/images/cache-simulator-800.png"
+    "src": "/images/projects/cache-simulator-800.png"
   }
 ]

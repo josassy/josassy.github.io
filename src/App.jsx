@@ -7,16 +7,11 @@ import { Home, Lorum, Projects } from './pages';
 export const App = () => {
   return (
     <div className="App">
-      {/* <Router basename='/'>
-        <div className="page-content">
-        <Route exact path="/"><Home /></Route>
-        <Route path="/projects"><Projects /></Route>
-        </div>
-      </Router> */}
       <Navbar />
       <Home />
-      <Lorum />
       <Projects />
+      <Lorum />
+      <Lorum />
       <Lorum />
       <Lorum />
     </div>
