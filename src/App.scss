@@ -1,5 +1,7 @@
 @import "./colors.scss";
-@import "./header.scss";
+@import "./navbar.scss";
+
+$headerSize: 84px;
 
 body {
   margin: 0;
@@ -27,7 +29,6 @@ p {
 
 a {
   color: $text;
-  text-decoration: none;
 }
 
 a:visited {
@@ -69,4 +70,22 @@ a:visited {
   text-transform: uppercase;
   font-size: 14px;
   margin: 0;
+}
+
+a.card {
+  text-decoration: none;
+}
+
+section {
+  min-height: 100vh;
+}
+
+// offset each section for the height of the header
+section::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -$headerSize;
+  height: $headerSize; 
+  visibility: hidden; 
+  pointer-events: none;
 }

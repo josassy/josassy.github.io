@@ -1,9 +1,10 @@
 import React from 'react';
 import logo from './images/jl-logo-white-noborders.svg';
 import HamburgerMenu from 'react-hamburger-menu';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
-class Header extends React.Component {
+class Navbar extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -12,7 +13,7 @@ class Header extends React.Component {
     };
   }
 
-  componentDidMount () {
+  componentDidMount() {
     window.addEventListener('resize', this.handleWindowSizeChange);
   }
   componentWillUnmount() {
@@ -43,8 +44,8 @@ class Header extends React.Component {
             color='#ffffff'
           />
           <ul className={ this.state.isOpen ? "active" : "" }>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/projects">Projects</Link></li>
+            <li><Link activeClass="active" to="home" spy smooth duration={1000}>Home</Link></li>
+            <li><Link activeClass="active" to="projects" spy smooth duration={1000}>Projects</Link></li>
           </ul>
         </nav>
       </header>
@@ -52,4 +53,4 @@ class Header extends React.Component {
   }
 }
 
-export default Header;
+export default Navbar;
