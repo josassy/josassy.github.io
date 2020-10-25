@@ -1,10 +1,11 @@
 import React from 'react';
-import logo from './images/jl-logo-white-noborders.svg';
+import logo from '../images/jl-logo.svg';
+import github from '../images/github-64.png';
+import linkedin from '../images/linkedin-64.png';
 import HamburgerMenu from 'react-hamburger-menu';
-// import { Link } from 'react-router-dom';
 import { Link } from 'react-scroll';
 
-class Navbar extends React.Component {
+export class Navbar extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -30,6 +31,12 @@ class Navbar extends React.Component {
     });
   }
 
+  handleLinkClick = () => {
+    this.setState({
+      isOpen: false
+    });
+  }
+
   render() {
     const { width }  = this.state;
     const isMobile = width <= 600;
@@ -47,14 +54,14 @@ class Navbar extends React.Component {
             color='#ffffff'
           />
           <ul className={ this.state.isOpen ? "active" : "" }>
-            <li><Link activeClass="active" to="home" spy smooth duration={scrollDuration}>Home</Link></li>
-            <li><Link activeClass="active" to="projects" spy smooth duration={scrollDuration}>Projects</Link></li>
-            <li><Link activeClass="active" to="about" spy smooth duration={scrollDuration}>About</Link></li>
+            <li><Link onClick={this.handleLinkClick} activeClass="active" to="home" spy smooth duration={scrollDuration}>Home</Link></li>
+            <li><Link onClick={this.handleLinkClick} activeClass="active" to="projects" spy smooth duration={scrollDuration}>Projects</Link></li>
+            <li><Link onClick={this.handleLinkClick} activeClass="active" to="about" spy smooth duration={scrollDuration}>About</Link></li>
+            <li id="break"><a className="social" href="https://github.com/josassy"><img alt="" src={github}></img></a></li>
+            <li><a className="social" href="https://www.linkedin.com/in/josiahlansford"><img alt="" src={linkedin}></img></a></li>
           </ul>
         </nav>
       </header>
     )
   }
 }
-
-export default Navbar;

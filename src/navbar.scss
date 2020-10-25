@@ -36,12 +36,12 @@ nav.desktop ul {
   flex-direction: row;
   flex-flow: row wrap;
   align-items: center;
-  width: auto;
+  width: 100%;
 }
 
 // Add margins to hamburger menu button
 nav div {
-  margin: 20px;
+  margin: 15px 20px;
 }
 
 // Hide hamburger menu button when desktop
@@ -49,11 +49,9 @@ nav.desktop div {
   display: none;
 }
 
-nav li a {
-  box-sizing: border-box;
+nav a {
   display: block;
   color: $text;
-  text-align: center;
   line-height: 60px;
   margin: 0 16px;
   height: 60px;
@@ -66,6 +64,7 @@ nav li a {
 
 // hover styling
 nav.desktop li a:hover {
+  text-decoration: none;
   border-bottom: 3px solid white;
 }
 
@@ -74,13 +73,36 @@ nav.desktop li a.active {
   border-bottom: 3px solid white;
 }
 
-#header-logo {
-  height: 60px;
-  padding: 10px 20px;
-  box-sizing: border-box;
+nav.desktop li a.social:hover {
+  border-bottom: none;
 }
 
-#header-logo img {
+#header-logo {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0 );
+  height: 60px;
+  padding: 10px 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+nav img {
   height: 100%;
 }
+
+nav .social {
+  padding: 15px 0;
+  border: none;
+  line-height: normal;
+}
+
+// the element to break to right align
+#break {
+  flex-grow: 1;
+  text-align: right;
+}
+
 
