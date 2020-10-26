@@ -57,7 +57,8 @@ export class Navbar extends React.Component {
             <li><Link onClick={this.handleLinkClick} activeClass="active" to="home" spy smooth duration={scrollDuration}>Home</Link></li>
             <li><Link onClick={this.handleLinkClick} activeClass="active" to="projects" spy smooth duration={scrollDuration}>Projects</Link></li>
             <li><Link onClick={this.handleLinkClick} activeClass="active" to="about" spy smooth duration={scrollDuration}>About</Link></li>
-            <li id="break"><a className="social" href="https://github.com/josassy"><img alt="" src={github}></img></a></li>
+            <li id="break"></li>
+            <li><a className="social" href="https://github.com/josassy"><img alt="" src={github}></img></a></li>
             <li><a className="social" href="https://www.linkedin.com/in/josiahlansford"><img alt="" src={linkedin}></img></a></li>
           </ul>
         </nav>
