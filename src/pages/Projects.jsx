@@ -7,6 +7,17 @@ export const Projects = () => {
       <div className="section-content">
         <h2>Projects</h2>
         <ProjectCard
+          title="Timshol"
+          description="Timshol is a 2.5D side-scroller platformer video game built in Unreal Engine 4. The game is designed with simple but fun mechanics to provide the player with an engaging and seamless experience that builds from the well-known platformer game format. Created in partial fulfillment of requirements for my university's senior-year capstone program."
+          url="https://jebbishop.itch.io/timshol"
+          src="/images/projects/timshol/3.png"
+          images={[
+            "/images/projects/timshol/1.png",
+            "/images/projects/timshol/2.png",
+            "/images/projects/timshol/3.png"
+          ]}
+        />
+        <ProjectCard
           title="GameStonks"
           description="Beat your opponent in 2-player local play to make the most money from GameStonks stonk! Built with Unreal Engine 4 in 48 hours for the 2021 Global Game Jam."
           date="January 2021"

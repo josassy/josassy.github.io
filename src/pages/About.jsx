@@ -7,8 +7,8 @@ export const About = () => {
       <div className="section-content">
         <h2>About Josiah</h2>
         <div id="intro">
-          <img src={JosiahPhoto} alt="Josiah Lansford" />
-          <p>Hi there, I'm Josiah. I'm a passionate full-stack developer with an eye for a design and a crush on clean code. I love to create beautiful solutions that make people's lives better, and have a demonstrated history of working with customers and within my team to exceed expectations. If you think I may be a good fit with your project or company, connect with me on <a href="www.linkedin.com/in/josiahlansford">LinkedIn</a>, I would love to chat!</p>
+          <img src={JosiahPhoto} alt="photo of Josiah Lansford" />
+          <p>Hi there, I'm Josiah. I'm a full-stack software developer with a passion for building beautiful solutions that improves people’s lives. I care deeply about best practices, accessibility, and doing things the right way the first time. Looking for a team where I can continuously challenge my technical skills, collaborate with others, and learn everything I can.  If you think I may be a good fit with your project or company, connect with me on <a href="www.linkedin.com/in/josiahlansford">LinkedIn</a>, I would love to chat!</p>
         </div>
         <div id="philosophy">
           <h3>Work Philosophy</h3>
@@ -34,6 +34,8 @@ export const About = () => {
             <li>Common developer tools such as Git, Docker, and Postman</li>
             <li>Web servers, basic Linux system administration &amp; networking</li>
             <li>Basic working knowledge of MySQL and DBMS tools</li>
+            <li>Video game development in Unreal Engine</li>
+            <li>Basic machine learning using Unity 3D and Python</li>
             <li>Proficient in Agile methodologies (Scrum, Kanban, etc.)</li>
             <li>Live Video Production, including Camera Operation and Directing</li>
           </ul>
