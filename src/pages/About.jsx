@@ -27,10 +27,14 @@ export const About = () => {
           <h3>Skills</h3>
           <ul>
             <li>Front-end development in React.js using HTML and CSS</li>
-            <li>RESTful API development in Python and the Flask microframework</li>
-            <li>Software development in C#, C++, Java, and Qt</li>
-            <li>UI development in React or Qt Markup Language (QML)</li>
-            <li>Proficient in Agile methodologies and Git workflows</li>
+            <li>RESTful API development in Python using Flask or Django</li>
+            <li>Desktop software development in C++ &amp; QML with Qt 5</li>
+            <li>Build dependency management using CMake</li>
+            <li>Unit testing using GTest and GMock</li>
+            <li>Common developer tools such as Git, Docker, and Postman</li>
+            <li>Web servers, basic Linux system administration &amp; networking</li>
+            <li>Basic working knowledge of MySQL and DBMS tools</li>
+            <li>Proficient in Agile methodologies (Scrum, Kanban, etc.)</li>
             <li>Live Video Production, including Camera Operation and Directing</li>
           </ul>
         </div>
@@ -41,13 +45,13 @@ export const About = () => {
             <li>2 years of front-facing Technical Support and Customer Service experience</li>
             <li>3+ years of Live Video Production experience</li>
           </ul>
-          <p>For a complete list of my professional experience, check out my <a href="https://linkedin.com/in/josiahlansford">LinkedIn Page</a>.</p>
+          <p>To learn more about my professional experience, check out my <a href="https://linkedin.com/in/josiahlansford">LinkedIn Page</a>.</p>
         </div>
         <div id="education">
           <h3>Education</h3>
           <p><b>Cedarville University</b><br />
-          Bachelor of Science, GPA 3.98.<br />
-          Double Majors in Computer Science, Information Technology Management</p>
+            Bachelor of Science, GPA 3.98.<br />
+            Double Majors in Computer Science, Information Technology Management</p>
         </div>
       </div>
     </section >
