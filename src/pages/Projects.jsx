@@ -7,8 +7,8 @@ export const Projects = () => {
       <div className="section-content">
         <h2>Projects</h2>
         <ProjectCard
-          title="Colorweaver"
-          description={"Colorweaver is an experiment in React with HTML5 Canvas and WebGL that revolves through the HSL space and generates expanding circles around the user's mouse, creating a 3D tunnel effect.\nWarning: Do not view if you are sensitive to bright, changing colors."}
+          title="colorweaver"
+          description={"colorweaver is an experiment in React with HTML5 Canvas and WebGL that revolves through the HSL space and generates expanding circles around the user's mouse, creating a 3D tunnel effect.\nWarning: Do not view if you are sensitive to bright, changing colors."}
           url="https://colorweaver.josiahlansford.com"
           src="/images/projects/colorweaver/1.png"
           images={[
