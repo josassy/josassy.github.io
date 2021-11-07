@@ -29,17 +29,6 @@ export const Projects = () => {
           ]}
         />
         <ProjectCard
-          title="GameStonks"
-          description="Beat your opponent in 2-player local play to make the most money from GameStonks stonk! Built with Unreal Engine 4 in 48 hours for the 2021 Global Game Jam."
-          url="https://josassy.itch.io/gamestonks"
-          src="/images/projects/gamestonks/1.png"
-          images={[
-            "/images/projects/gamestonks/1.png",
-            "/images/projects/gamestonks/2.png",
-            "/images/projects/gamestonks/3.png"
-          ]}
-        />
-        <ProjectCard
           title="TeamDynamix Service Counter Kiosk"
           description="Web-based check-in kiosk built for Cedarville University's Information Technology department. Built using a React front-end and a Python Flask API, and integrated with existing TeamDynamix ticket-management system."
           src="/images/projects/tdxservicecounter/1.png"
@@ -52,10 +41,15 @@ export const Projects = () => {
           ]}
         />
         <ProjectCard
-          title="React Cache Simulator"
-          description="Simple 2-way set associative cache simulator built using React. Created for Computer Architecture class at Cedarville University."
-          url="https://josassy.github.io/cache-simulator"
-          src="/images/projects/cache-simulator-800.png"
+          title="GameStonks"
+          description="Beat your opponent in 2-player local play to make the most money from GameStonks stock! Built with Unreal Engine 4 in 48 hours for the 2021 Global Game Jam."
+          url="https://josassy.itch.io/gamestonks"
+          src="/images/projects/gamestonks/1.png"
+          images={[
+            "/images/projects/gamestonks/1.png",
+            "/images/projects/gamestonks/2.png",
+            "/images/projects/gamestonks/3.png"
+          ]}
         />
         <ProjectCard
           title="Rocket Oblivion"
@@ -67,6 +61,12 @@ export const Projects = () => {
             "/images/projects/rocketoblivion/2.png",
             "/images/projects/rocketoblivion/3.png"
           ]}
+        />
+        <ProjectCard
+          title="React Cache Simulator"
+          description="Simple 2-way set associative cache simulator built using React. Created for Computer Architecture class at Cedarville University."
+          url="https://josassy.github.io/cache-simulator"
+          src="/images/projects/cache-simulator-800.png"
         />
       </div>
     </section>
