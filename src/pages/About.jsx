@@ -7,7 +7,7 @@ export const About = () => {
       <div className="section-content">
         <h2>About Josiah</h2>
         <div id="intro">
-          <img src={JosiahPhoto} alt="photo of Josiah Lansford" />
+          <img src={JosiahPhoto} alt="Josiah Lansford" />
           <p>Hi there, I'm Josiah. I'm a full-stack software developer with a passion for building beautiful solutions that improves people’s lives. I care deeply about best practices, accessibility, and doing things the right way the first time. Looking for a team where I can continuously challenge my technical skills, collaborate with others, and learn everything I can.  If you think I may be a good fit with your project or company, connect with me on <a href="www.linkedin.com/in/josiahlansford">LinkedIn</a>, I would love to chat!</p>
         </div>
         <div id="philosophy">

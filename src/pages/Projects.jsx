@@ -7,6 +7,17 @@ export const Projects = () => {
       <div className="section-content">
         <h2>Projects</h2>
         <ProjectCard
+          title="Colorweaver"
+          description="Colorweaver is an experiment with HTML Canvas and WebGL drawing APIs"
+          url="colorweaver.josiahlansford.com"
+          src="/images/projects/colorweaver/1.png"
+          images={[
+            "/images/projects/colorweaver/1.png",
+            "/images/projects/colorweaver/2.png",
+            "/images/projects/colorweaver/3.png"
+          ]}
+        />
+        <ProjectCard
           title="Timshol"
           description="Timshol is a 2.5D side-scroller platformer video game built in Unreal Engine 4. The game is designed with simple but fun mechanics to provide the player with an engaging and seamless experience that builds from the well-known platformer game format. Created in partial fulfillment of requirements for my university's senior-year capstone program."
           url="https://jebbishop.itch.io/timshol"
