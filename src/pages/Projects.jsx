@@ -9,7 +9,7 @@ export const Projects = () => {
         <ProjectCard
           title="Colorweaver"
           description={"Colorweaver is an experiment in React with HTML5 Canvas and WebGL that revolves through the HSL space and generates expanding circles around the user's mouse, creating a 3D tunnel effect.\nWarning: Do not view if you are sensitive to bright, changing colors."}
-          url="colorweaver.josiahlansford.com"
+          url="https://colorweaver.josiahlansford.com"
           src="/images/projects/colorweaver/1.png"
           images={[
             "/images/projects/colorweaver/1.png",
