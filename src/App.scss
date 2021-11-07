@@ -135,6 +135,10 @@ a:visited {
   flex-direction: column;
 }
 
+.description p {
+  margin-block-end: 0;
+}
+
 .card .caption {
   text-transform: uppercase;
   font-size: 14px;

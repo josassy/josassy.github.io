@@ -23,7 +23,7 @@ export const ProjectCard = ({
       </div>
       <div className="description">
         <h3>{title}</h3>
-        <p>{description}</p>
+        {description && description.split('\n').map((line, i) => <p key={i}>{line}</p>)}
         <p className="caption">{date}</p>
         <div className="flexContainer action-link">
           {url && <a href={url} className="caption"><p>View Site &raquo;</p></a>}
