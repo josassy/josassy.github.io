@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="800"
+   viewBox="0 0 211.66666 211.66667"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1"
+     transform="translate(0,-85.333317)">
+
+    <g
+       aria-label="J"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:285.85336304px;line-height:100%;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.622756px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text12">
+      <path
+         d="m 51.739457,286.64167 q -35.159964,0 -51.739458663208,-30.01461 L 17.1512,244.62122 q 6.288774,11.14828 14.292668,16.29364 8.003894,4.85951 18.008762,4.85951 15.150228,0 22.582416,-9.14731 7.432187,-9.43316 7.432187,-30.87216 V 95.69162 h 24.011687 v 132.35011 q 0,12.00584 -3.14439,22.86827 -2.858535,10.57657 -9.147309,18.58046 -6.00292,8.0039 -16.007788,12.57755 -9.719015,4.57366 -23.439976,4.57366 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';fill:#ffffff;stroke-width:7.622756px"
+         id="path17" />
+    </g>
+    <g
+       aria-label="_"
+       transform="scale(0.79306255,1.2609346)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:275.76879883px;line-height:100%;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.35383415px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text12-8">
+      <path
+         d="m 135.63187,225.76953 v -15.16729 h 131.26595 v 15.16729 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';fill:#ffffff;stroke-width:7.35383415px"
+         id="path14" />
+    </g>
+  </g>
+</svg>
