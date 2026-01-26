@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import { Github, Linkedin, Terminal } from 'lucide-react'; // Optional icons
+import { Github, Linkedin, Terminal } from 'lucide-react';
 
 const App = () => {
   return (
