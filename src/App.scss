@@ -37,7 +37,7 @@ body {
       margin-bottom: 2.5rem;
 
       .icon-main {
-        color: c.$accent-blue;
+        color: c.$accent;
         flex-shrink: 0;
         width: 32px;
         height: 32px;
@@ -55,7 +55,7 @@ body {
         h2 {
           font-size: clamp(0.85rem, 3vw, 1.1rem);
           font-weight: 400;
-          color: c.$accent-blue;
+          color: c.$accent;
           letter-spacing: 0.05em;
           text-transform: uppercase;
         }
@@ -91,14 +91,14 @@ body {
         font-weight: 500;
         background: c.$text-main-transparent;
         color: c.$text-main;
-        border: 1px solid c.$accent-blue-transparent;
+        border: 1px solid c.$accent-transparent;
         transition: all c.$transition-speed;
 
         &:hover {
-          background: c.$accent-blue;
+          background: c.$accent;
           color: c.$bg-dark;
           transform: translateY(-3px);
-          border-color: c.$accent-blue;
+          border-color: c.$accent;
         }
       }
     }
