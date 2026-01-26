@@ -8,8 +8,11 @@ const App = () => {
       <main className="card">
         <div className="header">
           <Terminal size={32} className="icon-main" />
-          <h1>Josiah Lansford - Robotics Platform Engineer</h1>
-      </div>
+          <div className="header-text">
+            <h1>Josiah Lansford</h1>
+            <h2>Robotics Platform Engineer</h2>
+          </div>
+        </div>
 
         <p className="bio">
           I help robotics teams turn prototypes into scalable products. 
